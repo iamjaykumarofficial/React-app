@@ -2,16 +2,10 @@ import { Link } from "react-router";
 
 const Home = () => {
 	return (
-		<div>
-			<h1>Hey welcome To AswesomeQuote</h1>
+			<div className="container" style={{border:"3px solid", width:"400px", height:"350px", textAlign:"center", marginTop:"150px" , }}>
+			<h1 style={{margin:"40px"}}>Hey welcome To AswesomeQuote</h1>
 			<p>
-				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum fugiat
-				fugit unde quam harum non? Facere ad reprehenderit repellat eius modi,
-				quia voluptatibus quas voluptate sit ipsa animi voluptatem ut dolor eum!
-				Nihil vitae esse qui delectus ipsa, debitis facilis accusamus velit
-				voluptates neque quos corrupti praesentium? Iure cum repudiandae
-				expedita quae odit commodi. Deserunt vitae nam repudiandae dolore
-				impedit sit rem numquam ducimus?
+            “You must be the change you wish to see in the world.”
 			</p>
 			<Link className="btn btn-primary" to="/login">
 				Login Here
